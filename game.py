@@ -33,5 +33,5 @@ while (stillPlaying == 1):
      
    if (randomState == 'Hawaii' and (guessedState == 'California' or guessedState == 'Arizona' or guessedState == 'New Mexico' or guessedState == 'Texas' or guessedState == 'Louisiana' or guessedState == 'Mississippi' or guessedState == 'Alabama' or guessedState == 'Florida' or guessedState == 'Georgia' or guessedState == 'South Carolina' or guessedState == 'North Carolina' or guessedState == 'Virginia' or guessedState == 'Maryland' or guessedState == 'Delaware' or guessedState == 'New Jersey' or guessedState == 'Connecticut' or guessedState == 'Rhode Island' or guessedState == 'New York' or guessedState == 'New Hampshire' or guessedState == 'Maine' or guessedState == 'Massachusetts')):
       print('The state is south')
-    else:
-      print('Your guess is more than 2 states away')
+   else:
+     print('Your guess is more than 2 states away')
