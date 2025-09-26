@@ -15,23 +15,23 @@ while (stillPlaying == 1):
       print(f'You guessed the state correctly, it was {randomState}. It took you {guesses} guesses.')
   else:
     guesses = guesses + 1
-    if (randomState == 'Washington' and (guessedState == 'Oregon' or guessedState == 'Idaho')):
-      print('Your guess borders the state')
-    elif (randomState == 'Washington' and (guessedState == 'California' or guessedState == 'Montana' or guessedState == 'Nevada' or guessedState == 'Utah' or guessedState == 'Wyoming')):
-      print('Your guess is 2 states away')
-    elif (randomState == 'Washington' and (guessedState == 'North Dokata' or guessedState == 'South Dokata' or guessedState == 'Nebraska' or guessedState == 'Colorado' or guessedState == 'New Mexico' or guessedState == 'Arizona')):
-      print('Your guess is 3 states away')
-    else:
-      print('Your guess is more than 3 states away')
-    if (guesses >= 3 and randomState == 'Washington'):
-      print('The state is on the left side of the United States')
+  if (randomState == 'Washington' and (guessedState == 'Oregon' or guessedState == 'Idaho')):
+    print('Your guess borders the state')
+  elif (randomState == 'Washington' and (guessedState == 'California' or guessedState == 'Montana' or guessedState == 'Nevada' or guessedState == 'Utah' or guessedState == 'Wyoming')):
+    print('Your guess is 2 states away')
+  elif (randomState == 'Washington' and (guessedState == 'North Dokata' or guessedState == 'South Dokata' or guessedState == 'Nebraska' or guessedState == 'Colorado' or guessedState == 'New Mexico' or guessedState == 'Arizona')):
+    print('Your guess is 3 states away')
+  elif (randomState == 'Washington'):
+    print('Your guess is more than 3 states away')
+  if (guesses >= 3 and randomState == 'Washington'):
+    print('The state is on the left side of the United States')
     
-    if (randomState == 'Alaska' and (guessedState == 'Washington' or guessedState == 'Idaho' or guessedState == 'Montana' or guessedState == 'North Dakota' or guessedState == 'Minnesota' or guessedState == 'Wisconsin' or guessedState == 'Michigan' or guessedState == 'Illinois' or guessedState == 'Indiana' or guessedState == 'Ohio' or guessedState == 'Pennsylvania' or guessedState == 'New York' or guessedState == 'Vermont' or guessedState == 'New Hampshire' or guessedState == 'Maine')):
-      print('The state is north')
-    else:
-      print('Your guess is more than 2 states away')
+  if (randomState == 'Alaska' and (guessedState == 'Washington' or guessedState == 'Idaho' or guessedState == 'Montana' or guessedState == 'North Dakota' or guessedState == 'Minnesota' or guessedState == 'Wisconsin' or guessedState == 'Michigan' or guessedState == 'Illinois' or guessedState == 'Indiana' or guessedState == 'Ohio' or guessedState == 'Pennsylvania' or guessedState == 'New York' or guessedState == 'Vermont' or guessedState == 'New Hampshire' or guessedState == 'Maine')):
+    print('The state is north')
+  elif (randomState == 'Alaska'):
+    print('Your guess is more than 2 states away')
      
-   if (randomState == 'Hawaii' and (guessedState == 'California' or guessedState == 'Arizona' or guessedState == 'New Mexico' or guessedState == 'Texas' or guessedState == 'Louisiana' or guessedState == 'Mississippi' or guessedState == 'Alabama' or guessedState == 'Florida' or guessedState == 'Georgia' or guessedState == 'South Carolina' or guessedState == 'North Carolina' or guessedState == 'Virginia' or guessedState == 'Maryland' or guessedState == 'Delaware' or guessedState == 'New Jersey' or guessedState == 'Connecticut' or guessedState == 'Rhode Island' or guessedState == 'New York' or guessedState == 'New Hampshire' or guessedState == 'Maine' or guessedState == 'Massachusetts')):
-      print('The state is south')
-   else:
-     print('Your guess is more than 2 states away')
+  if (randomState == 'Hawaii' and (guessedState == 'California' or guessedState == 'Arizona' or guessedState == 'New Mexico' or guessedState == 'Texas' or guessedState == 'Louisiana' or guessedState == 'Mississippi' or guessedState == 'Alabama' or guessedState == 'Florida' or guessedState == 'Georgia' or guessedState == 'South Carolina' or guessedState == 'North Carolina' or guessedState == 'Virginia' or guessedState == 'Maryland' or guessedState == 'Delaware' or guessedState == 'New Jersey' or guessedState == 'Connecticut' or guessedState == 'Rhode Island' or guessedState == 'New York' or guessedState == 'New Hampshire' or guessedState == 'Maine' or guessedState == 'Massachusetts')):
+    print('The state is south')
+  elif (randomState == 'Hawaii'):
+    print('Your guess is more than 2 states away')
