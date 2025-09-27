@@ -20,13 +20,15 @@ while (stillPlaying == 1):
     guesses = guesses + 1
   if (randomState == 'Washington' and (guessedState == 'Oregon' or guessedState == 'Idaho')):
     print('Your guess borders the state')
+  elif (randomState == 'Washington' and guessedState == 'Alaska'):
+    print('Your guess is 1 state away')
   elif (randomState == 'Washington' and (guessedState == 'California' or guessedState == 'Montana' or guessedState == 'Nevada' or guessedState == 'Utah' or guessedState == 'Wyoming')):
     print('Your guess is 2 states away')
-  elif (randomState == 'Washington' and (guessedState == 'North Dokata' or guessedState == 'South Dokata' or guessedState == 'Nebraska' or guessedState == 'Colorado' or guessedState == 'New Mexico' or guessedState == 'Arizona')):
+  elif (randomState == 'Washington' and (guessedState == 'North Dokata' or guessedState == 'South Dokata' or guessedState == 'Nebraska' or guessedState == 'Colorado' or guessedState == 'New Mexico' or guessedState == 'Arizona' or guessedState == 'Hawaii')):
     print('Your guess is 3 states away')
   elif (randomState == 'Washington'):
     print('Your guess is more than 3 states away')
-  if (guesses >= 3 and randomState == 'Washington'):
+  if (guesses == 3 and randomState == 'Washington'):
     print('The state is on the left side of the US')
     
   if (randomState == 'Alaska' and (guessedState == 'Washington' or guessedState == 'Idaho' or guessedState == 'Montana' or guessedState == 'North Dakota' or guessedState == 'Minnesota' or guessedState == 'Wisconsin' or guessedState == 'Michigan' or guessedState == 'Illinois' or guessedState == 'Indiana' or guessedState == 'Ohio' or guessedState == 'Pennsylvania' or guessedState == 'New York' or guessedState == 'Vermont' or guessedState == 'New Hampshire' or guessedState == 'Maine')):
@@ -46,5 +48,20 @@ while (stillPlaying == 1):
     print('Your guess is 3 states away')
   elif (randomState == 'Oregon'):
     print('Your guess is more than 3 states away')
-  if (guesses >= 3 and randomState == 'Oregon'):
+  if (guesses == 3 and randomState == 'Oregon'):
     print('The state is on the left side of the US')
+
+  if (randomState == 'California' and (guessedState == 'Nevada' or guessedState == 'Oregon' or guessedState == 'Arizona')):
+    print('Your guess borders the state')
+  elif (randomState == 'California' and guessedState == 'Hawaii'):
+    print('Your guess is 1 state away')
+  elif (randomState == 'California' and (guessedState == 'Washington' or guessedState == 'Idaho' or guessedState == 'Utah' or guessedState == 'New Mexico')):
+    print('Your guess is 2 states away')
+  elif (randomState == 'California' and (guessedState == 'Montana' or guessedState == 'Wyoming' or guessedState == 'Colorado' or guessedState == 'Oklahoma' or guessedState == 'Texas')):
+    print('Your guess is 3 states away')
+  elif (randomState == 'California'):
+    print('Your guess is more than 3 states away')
+  if (guesses == 3 and randomState == 'California'):
+    print('The state is on the left side of the US')
+
+  if (randomState == 'Nevada' and (guessedState == '
