@@ -62,6 +62,6 @@ while (stillPlaying == 1):
   elif (randomState == 'California'):
     print('Your guess is more than 3 states away')
   if (guesses == 3 and randomState == 'California'):
-    print('The state is on the left side of the US')
+    print('The state is on the left side of the US') #5 states done
 
   if (randomState == 'Nevada' and (guessedState == '
