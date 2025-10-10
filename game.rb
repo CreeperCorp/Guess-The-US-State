@@ -1,5 +1,3 @@
-# Guess The US State - Advanced Maintainable Edition
-
 require 'set'
 
 US_STATES = [
